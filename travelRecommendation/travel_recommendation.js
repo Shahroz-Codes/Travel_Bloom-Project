@@ -50,7 +50,7 @@ function clearResults() {
 function showTimeZone(city, timeZone) {
     const options = { timeZone, hour12: true, hour: 'numeric', minute: 'numeric', second: 'numeric' };
     const localTime = new Date().toLocaleTimeString('en-US', options);
-    console.log("Current time in ${city}: ${localTime}");
+    console.log(`Current time in ${city}: ${localTime}`);
 }
 
 // Example usage (Modify based on user searches)
